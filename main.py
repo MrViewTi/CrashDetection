@@ -1,6 +1,4 @@
-
 import torch
-from PIL.Image import Image
 from deepproblog.engines import ExactEngine
 from network import DANGERDIST_CNN
 from deepproblog.network import Network
@@ -9,9 +7,6 @@ from CrashDataset import train
 from CrashDataset import test
 from deepproblog.dataset import DataLoader
 from deepproblog.train import train_model
-
-
-import numpy as np
 
 
 if __name__ == '__main__':
